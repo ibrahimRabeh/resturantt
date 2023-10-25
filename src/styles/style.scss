@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    
+
+}
+
+.TopPage .title{
+    top: 0%;
+    transform: translate(-50%, -50%);
+    color: rgb(218, 215, 215);
+    width: 100%;
+    font-size:6vw;
+    text-align: center;
+    background-color: #064e3b30
+    
+}
+a{
+    border: none;
+    outline: none;
+    background: white;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    padding: 2% 0%;
+    border-radius: 0;
+
+
+}
+.MainMenuContainer{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   
+    display: flex;
+
+    flex-direction: row;
+
+    border-radius: 0;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(161, 211, 255);
+    font-weight: 600;
+    font-size: 2vw;
+    padding: 2% 0%;
+    border-radius: 0;
+    border: 2px solid #156d5630;
+    flex:1;
+    background-color: #021f17b8;
+    color: rgb(161, 211, 255);
+    text-align: center;
+    justify-content: center;
+
+
+}
+a:hover{
+    background-color: #010f0cb7;
+    transition: 0.5s ease-in-out;
+}
+a:active{
+    background-color: #03bc94b7;
+    transition: 0.5s step-start;
+}
+
+.title{
+    animation: animateTop 1s ease-in forwards;
+}
+svg{
+    height: 100px;
+    width: 100px;
+}
+@keyframes animateTop{
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
