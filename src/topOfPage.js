@@ -12,7 +12,7 @@ title.innerHTML = "Welcome to your new Favorite bakery!";
 
 const mainpage = document.createElement("a");
 mainpage.innerHTML = "Main";
-mainpage.href = "mainPage.html";
+mainpage.href = "index.html";
 
 const ourmenu = document.createElement("a");
 ourmenu.innerHTML = "Menu";

@@ -1,9 +1,9 @@
 import "../styles/style.scss";
 import "../styles/productsStyle.scss";
-import topPage from "../index.js";
-import { title } from "../index.js";
-import { mainpage } from "../index.js";
-import { ourmenu } from "../index.js";
+import topPage from "../topOfPage";
+import { title } from "../topOfPage";
+import { mainpage } from "../topOfPage";
+import { ourmenu } from "../topOfPage";
 
 function products() {
   mainpage.href = "mainPage.html";

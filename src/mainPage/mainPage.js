@@ -1,4 +1,4 @@
-import topPage from "../index.js";
+import topPage from "../topOfPage.js";
 import "../styles/mainPagestyle.scss"
 import "../styles/style.scss";
 

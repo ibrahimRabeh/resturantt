@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry:{
-      mainPage: './src/mainPage/mainPage.js',
+      index: './src/mainPage/mainPage.js',
       products: './src/products/products.js',
       about: './src/about/about.js'
     },
@@ -29,9 +29,9 @@ module.exports = {
     plugins: [
       new HtmlWebpackPlugin({
         inject: true,
-        template: './src/mainPage/mainPage.html',
-        filename: 'mainPage.html',
-        chunks: ['mainPage'],
+        template: './src/mainPage/index.html',
+        filename: 'index.html',
+        chunks: ['index'],
       }),
      
       new HtmlWebpackPlugin({

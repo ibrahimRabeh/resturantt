@@ -1,5 +1,5 @@
-import topPage from "../index";
-import { title } from "../index"
+import topPage from "../topOfPage";
+import { title } from "../topOfPage"
 import "../styles/aboutStyle.scss"
 import "../styles/style.scss";
 function about(){
