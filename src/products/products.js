@@ -6,7 +6,7 @@ import { mainpage } from "../topOfPage";
 import { ourmenu } from "../topOfPage";
 
 function products() {
-  mainpage.href = "mainPage.html";
+  mainpage.href = "index.html";
   ourmenu.href = "javascript: void(0)";
 
   topPage();
