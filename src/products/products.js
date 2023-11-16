@@ -22,7 +22,7 @@ function products() {
   item1.innerHTML = "Bread bun made with full grain flour and topped with sesame seeds and herbs\n\
   1$ for 3 buns";
   let item1img = document.createElement("img");
-  item1img.src = "../src/products/bun-4892519_640.jpg";
+  item1img.classList.toggle("firstimg");
 
   let itemContainer2 = document.createElement("div");
   itemContainer2.classList.toggle("itemContainer");
@@ -31,7 +31,7 @@ function products() {
   2$";
   item2.classList.toggle("item");
   let item2img = document.createElement("img");
-  item2img.src = "../src/products/baguette-235_640.jpg";
+  item2img.classList.toggle("secondimg");
 
   let itemContainer3 = document.createElement("div");
   itemContainer3.classList.toggle("itemContainer");
@@ -41,7 +41,7 @@ function products() {
   "1.5$ chocolate croissant";
   item3.classList.toggle("item");
   let item3img = document.createElement("img");
-  item3img.src = "../src/products/bread-4077812_640.jpg";
+  item3img.classList.toggle("thirdimg");
 
   let itemContainer4 = document.createElement("div");
   itemContainer4.classList.toggle("itemContainer");
@@ -50,7 +50,7 @@ function products() {
   1.5$"
   item4.classList.toggle("item");
   let item4img = document.createElement("img");
-  item4img.src = "../src/products/pain-au-chocolat-5100138_640.jpg";
+  item4img.classList.toggle("fourthimg");
 
   let itemContainer5 = document.createElement("div");
   itemContainer5.classList.toggle("itemContainer");
@@ -59,8 +59,7 @@ function products() {
   4$"
   item5.classList.toggle("item");
   let item5img = document.createElement("img");
-  item5img.src = "../src/products/loaf-1979676_640.jpg";
-
+  item5img.classList.toggle("fifthimg");
 
   let itemContainer6 = document.createElement("div");
   itemContainer6.classList.toggle("itemContainer");
@@ -69,7 +68,7 @@ function products() {
   10$"
   item6.classList.toggle("item");
   let item6img = document.createElement("img");
-  item6img.src = "../src/products/bread-basket-2105695_640.jpg";
+  item6img.classList.toggle("sixthimg");
   
   content.appendChild(productsContainer);
   productsContainer.append(

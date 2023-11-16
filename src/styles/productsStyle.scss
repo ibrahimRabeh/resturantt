@@ -93,6 +93,47 @@ body{
 
 }
 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+img:hover{
+    border-radius: 10%;
+
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+.firstimg{
+    background-image: url("../products/bun-4892519_640.jpg");
+    width: 60%;
+
+
+}
+.thirdimg{
+    background-image: url("../products/bread-4077812_640.jpg");
+    width: 60%;
+
+}
+.secondimg{
+    background-image: url("../products/baguette-235_640.jpg");
+    width: 60%;
+
+}
+.fourthimg{
+    background-image: url("../products/pain-au-chocolat-5100138_640.jpg");
+    width: 60%;
+
+}
+.fifthimg{
+    background-image: url("../products/loaf-1979676_640.jpg");
+    width: 60%;
+
+}
+.sixthimg{
+    background-image: url("../products/bread-basket-2105695_640.jpg");
     width: 60%;
 
 }
